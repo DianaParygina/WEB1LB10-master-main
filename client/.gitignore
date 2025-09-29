@@ -13,7 +13,7 @@ node_modules
 dist
 dist-ssr
 coverage
-*.local
+*.localc
 
 /cypress/videos/
 /cypress/screenshots/
@@ -29,3 +29,6 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+*.pyc
+__pycache__/
