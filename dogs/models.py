@@ -35,7 +35,6 @@ class Owner(models.Model):
     last_name = models.CharField(max_length=50)
     phone_number = models.CharField(max_length=15)
     pictureOwner = models.ImageField(upload_to="Owner/", null=True, blank=True)
-    # Исправлено: теперь используется settings.AUTH_USER_MODEL для согласованности
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, null=True, blank=True)
 
     def __str__(self):
