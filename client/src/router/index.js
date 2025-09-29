@@ -4,7 +4,7 @@ import BreedsView from '../views/BreedsView.vue'
 import OwnersView from '../views/OwnersView.vue'
 import CountriesView from '../views/CountriesView.vue'
 import HobbyView from '../views/HobbyView.vue'
-import LoginPage from '../views/LoginPage.vue'
+// import LoginPage from '../views/LoginPage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,11 +33,11 @@ const router = createRouter({
     name: "HobbyView",
     component: HobbyView
   },
-  {
-    path: "/login",
-    name: "LoginPage",
-    component: LoginPage
-  }
+  // {
+  //   path: "/login",
+  //   name: "LoginPage",
+  //   component: LoginPage
+  // }
   ]
 })
 
